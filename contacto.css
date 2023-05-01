@@ -1,0 +1,73 @@
+.gradient-contact{
+    background-image: url(./imagenes_derecho_autor/contact-background.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: scroll;
+    padding: 50px 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gradient-contact h2{
+   font-size: 32px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.gradient-contact .container{
+    display: block;
+    background-color: white;
+    margin: 0 auto;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+}
+.gradient-contact form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gradient-contact label{
+    display: flex;
+    align-self: flex-start;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gradient-contact form input,
+.gradient-contact form textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid rgba(34,42,191,1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.gradient-contact form textarea{
+    height: 100px;
+    resize: none;
+}
+
+.gradient-contact button[type="submit"]{
+    width: 100%;
+    max-width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid rgba(34,42,191,1);
+    border-radius:5px;
+    color: rgb(19, 39, 126);
+    background-color: white;
+    cursor: pointer;
+}
+
+.gradient-contact button[type="submit"]:hover{
+    background-color: rgba(34,42,191,1);
+    border: 2px solid rgb(19, 39, 126); 
+    color: whitesmoke;
+}
